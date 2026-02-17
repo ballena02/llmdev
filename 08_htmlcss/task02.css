@@ -1,0 +1,48 @@
+/* 全体の余白をなくす（ヘッダー/フッターを画面端まで広げる） */
+body {
+    margin: 0;
+}
+
+/* ヘッダー：文字色 #fff、背景色 #84ceef */
+.header {
+    background-color: #84ceef;
+    color: #fff;
+    padding: 16px 20px;
+}
+
+/* ヘッダー内の段落の余白調整 */
+.header p {
+    margin: 0 0 12px 0;
+}
+
+/* メニューの見た目（箇条書き＋少し間隔） */
+.nav ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.nav li {
+    margin: 8px 0;
+}
+
+/* メインの余白 */
+.main {
+    padding: 30px 20px;
+}
+
+/* h1：文字色 #e47292、中央寄せ */
+.main h1 {
+    color: #e47292;
+    text-align: center;
+}
+
+/* フッター：文字色 #fff、背景色 #040000 */
+.footer {
+    background-color: #040000;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.footer p {
+    margin: 0;
+}

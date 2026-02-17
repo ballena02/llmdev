@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>レイアウトの例</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+
+<body>
+    <h1>Webページのレイアウト</h1>
+
+    <!-- ブロックとインラインの比較 -->
+    <h2>ブロックレベル要素とインラインレベル要素</h2>
+    <div class="r">div1 (block要素)</div>
+    <div class="g">div2 (block要素)</div>
+    <div class="b">div3 (block要素)</div>
+    <span class="r">span1 (inline要素)</span>
+    <span class="g">span2 (inline要素)</span>
+    <span class="b">span3 (inline要素)</span>
+
+    <!-- ボックスモデル -->
+    <h2>ボックスモデル</h2>
+    <div class="box">ボックスモデルの4つの領域</div>
+
+    <!-- 子要素の位置 -->
+    <h2>子要素の位置</h2>
+    <div class="outer-box">
+        <div class="inner-box">内側のボックス</div>
+    </div>
+
+    <!-- flexboxの例 -->
+    <h2>flexboxの例</h2>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+
+    <!-- 2カラムレイアウト -->
+    <h2>2カラムレイアウト</h2>
+    <div class="flex-2column">
+        <header>ヘッダー</header>
+        <main>
+            <article>記事コンテンツ</article>
+            <aside>サイドバー</aside>
+        </main>        
+        <footer>フッター</footer>
+    </div>
+
+    <!-- 3カラムレイアウト -->
+    <h2>3カラムレイアウト</h2>
+    <div class="flex-3column">
+        <header>ヘッダー</header>
+        <main>
+          <nav>ナビゲーション</nav>
+          <article>記事コンテンツ</article>
+          <aside>サイドバー</aside>
+        </main>    
+        <footer>footer</footer>
+    </div>
+
+    <!-- 固定メニュー -->
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</body>
+
+</html>

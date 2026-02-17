@@ -1,0 +1,136 @@
+/* displayプロパティのデフォルト値の確認用 */
+.r { background-color: pink; }
+.g { background-color: palegreen; }
+.b { background-color: skyblue; }
+
+/* displayプロパティの変更 */
+div.r {
+    display: inline;
+}
+div.g {
+    display: inline;
+}
+
+/* 子要素の位置 */
+.outer-box {
+  margin: 50px;
+  border: 5px solid pink;
+  padding: 30px;
+  width: 200px;
+  height: 150px;
+  background-color: skyblue;
+}
+
+.inner-box {
+  margin: 20px;
+  border: 3px solid green;
+  height: 100px;
+  background-color: orange;
+}
+
+/* flexboxの例 */
+.container {
+  display: flex;
+  border: 5px solid pink;
+  justify-content: center; /* 横方向で中央寄せ */
+  align-items: center; /* 縦方向で中央寄せ */
+  height: 200px; /* 親要素の高さを指定 */
+  column-gap: 10px; /* 横方向の間隔 */
+}
+
+.item {
+  background-color: skyblue;
+  padding: 20px;
+  flex: 1; /* 子要素が均等にスペースを分け合う */
+}
+
+/* 2カラムレイアウト */
+.flex-2column header {
+  padding-bottom: 40px;
+  background-color: #f4769a;
+  border: 2px solid #000;
+}
+
+.flex-2column main {
+  display: flex;
+  padding: 20px;
+  background-color: #eaeaea;
+  border: 2px solid #000;
+}
+
+.flex-2column article {
+  width: 70%;
+  padding-bottom: 40px;
+  background-color: #ffe966;
+  border: 2px solid #000;
+}
+
+.flex-2column aside {
+  width: 30%;
+  background-color: #6df2c9;
+  border: 2px solid #000;
+}
+
+.flex-2column footer {
+  padding-bottom: 40px;
+  background-color: #2f92dd;
+  border: 2px solid #000;
+}
+
+/* 3カラムレイアウト */
+.flex-3column header {
+  padding-bottom: 40px;
+  background-color: #F4769A;
+  border: 2px solid #000;
+}
+
+.flex-3column main {
+  display: flex;
+  padding: 20px;
+  background-color: #EAEAEA;    
+  border: 2px solid #000;    
+}
+
+.flex-3column nav {
+  width: 20%;
+  padding-bottom: 40px;
+  background-color: #FFD166;
+  border: 2px solid #000;    
+}
+
+.flex-3column article {
+  width: 60%;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #FFE966;    
+  border: 2px solid #000;
+}
+
+.flex-3column aside {
+  width: 20%;
+  background-color: #6DF2C9;
+  border: 2px solid #000;
+}
+
+.flex-3column footer {
+  padding-bottom: 40px;
+  background-color: #2F92DD;
+  border: 2px solid #000;
+}
+
+/* 固定メニュー */
+ul {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  display: inline-block;
+  width: 100px;
+  background-color: #dddddd;
+  text-align: center;
+  padding: 5px;
+}

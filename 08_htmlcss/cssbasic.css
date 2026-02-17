@@ -1,0 +1,34 @@
+/* クラスセレクター */
+.overview {
+  color: #333; /* テキスト色を濃いグレーに */
+  border-left: 4px solid #3498db; /* 左側に青線 */
+  padding: 5px; /* 余白を5pxに */
+  width: 80%; /* 幅を80%に */
+}
+
+/* IDセレクター */
+#firsttitle {
+    color: #3498db; /* テキスト色を水色に */
+    font-weight: bold; /* 太字 */
+}
+
+/* 子孫セレクター */
+section p {
+  background-color: #eee; /* 背景色を薄いグレーに */
+}
+
+/* 擬似クラス */
+a:link {
+  color: #0000ff; /* 通常時のテキスト色を青に */
+}
+a:hover {
+  color: #ff0000; /* ホバー時のテキスト色を赤に */
+}
+a:visited {
+  color: #999999; /* 訪問済のテキスト色をグレーに */
+}
+
+/* 大きさの記法（ピクセル） */
+h1 {
+  font-size: 48px; /* 文字サイズを32pxに */
+}
