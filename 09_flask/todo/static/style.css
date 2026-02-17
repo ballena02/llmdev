@@ -1,0 +1,65 @@
+body {
+  background-color: #f8f9fa; /* ページ全体の背景色を淡いグレーに設定 */
+}
+
+h1 {
+  text-align: center; /* 見出しを中央揃え */
+  color: #333; /* 見出しの文字色をダークグレーに設定 */
+}
+
+main {
+  max-width: 600px; /* メインコンテンツの最大幅を600pxに制限 */
+  margin: 20px auto; /* メインコンテンツを中央に配置 */
+  padding: 20px; /* 内側余白を設定 */
+  background-color: #ffffff; /* 背景色を白に設定 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 影を追加して立体感を出す */
+}
+
+ul {
+  list-style-type: none; /* リストの箇条書きスタイルを削除 */
+  padding: 0; /* リストの内側余白を無くす */
+}
+
+li {
+  display: flex; /* 各リスト項目をフレックスボックスで表示 */
+  justify-content: space-between; /* 要素を左右に配置 */
+  padding: 8px 0; /* 各項目に上下の余白を追加 */
+  border-bottom: 1px solid #ddd; /* 各項目の下に薄いボーダーを追加 */
+}
+
+.delete-button {
+  color: red; /* 削除ボタンの文字色を赤に設定 */
+  text-decoration: none; /* 削除ボタンの下線を無くす */
+}
+
+form {
+  display: flex; /* フォームをフレックスボックスで表示 */
+  gap: 10px; /* フォーム要素間の間隔を10pxに設定 */
+  margin-top: 20px; /* 上部に余白を追加 */
+}
+
+input[type="text"] {
+  flex: 1; /* 入力フィールドをできる限り広げる */
+  padding: 8px; /* 入力フィールドの内側余白を設定 */
+  border: 1px solid #ccc; /* 枠線を薄いグレーに設定 */
+  border-radius: 4px; /* 枠線を角丸に設定 */
+}
+
+button {
+  padding: 8px 16px; /* ボタンの内側余白を設定 */
+  border: none; /* ボタンの枠線を無しに設定 */
+  background-color: #007bff; /* 送信ボタンの背景色を青に設定 */
+  color: #fff; /* 送信ボタンの文字色を白に設定 */
+  border-radius: 4px; /* 枠線を角丸に設定 */
+  cursor: pointer; /* ボタンにカーソルを指アイコンに変更 */
+}
+
+button:hover {
+  background-color: #0056b3; /* ホバー時の送信ボタンの背景色を濃い青に変更 */
+}
+
+footer p {
+  text-align: center; /* フッター内のテキストを中央揃え */
+  color: #666; /* フッターの文字色をグレーに設定 */
+  font-size: 0.9em; /* フッターの文字サイズを少し小さく設定 */
+}

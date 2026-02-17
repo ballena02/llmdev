@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% set title_content = "TODOリスト" %}
+
+{% block title %}{{title_content}}{% endblock %}
+
+{% block content %}
+<!-- TODOリスト表示 -->
+<ul>
+  {% for todo in todos %}
+  <li>
+      {{ todo }}
+      <a href="{{ url_for('delete', todo_id=loop.index0) }}" class="delete-button">削除</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<!-- 新規TODO登録フォーム -->
+<form method="post" action="/">
+  <input type="text" name="todo" placeholder="新しいTODOを追加" required>
+  <button type="submit">追加</button>
+</form>
+{% endblock %}

@@ -1,0 +1,49 @@
+body {
+  background-color: #f8f9fa; /* ページ全体の背景色を淡いグレーに設定 */
+}
+
+h1 {
+  text-align: center; /* 見出しを中央揃え */
+  color: #333; /* 見出しの文字色をダークグレーに設定 */
+}
+
+main {
+  max-width: 600px; /* メインコンテンツの最大幅を600pxに制限 */
+  margin: 20px auto; /* メインコンテンツを中央に配置 */
+  padding: 20px; /* 内側余白を設定 */
+  background-color: #ffffff; /* 背景色を白に設定 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 影を追加して立体感を出す */
+}
+
+form {
+  display: flex; /* フォームをフレックスボックスで表示 */
+  flex-direction: column; /* フォーム要素を縦に並べる */
+  gap: 10px; /* フォーム要素間の間隔を10pxに設定 */
+  margin-top: 20px; /* 上部に余白を追加 */
+}
+
+label {
+  font-weight: bold; /* ラベルの文字を太字に設定 */
+}
+
+input {
+  padding: 8px; /* 入力フィールドの内側余白を設定 */
+  border: 1px solid #ccc; /* 枠線を薄いグレーに設定 */
+  border-radius: 4px; /* 枠線を角丸に設定 */
+}
+
+input[type="submit"] {
+  background-color: #007bff; /* 送信ボタンの背景色を青に設定 */
+  color: #fff; /* 送信ボタンの文字色を白に設定 */
+  cursor: pointer; /* ボタンにカーソルを指アイコンに変更 */
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3; /* ホバー時の送信ボタンの背景色を濃い青に変更 */
+}
+
+footer p {
+  text-align: center; /* フッター内のテキストを中央揃え */
+  color: #666; /* フッターの文字色をグレーに設定 */
+  font-size: 0.9em; /* フッターの文字サイズを少し小さく設定 */
+}

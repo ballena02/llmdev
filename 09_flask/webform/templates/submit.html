@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% set title_content = "My WebSite" %}
+
+{% block title %}送信結果{% endblock %}
+
+{% block content %}
+    <p>名前: {{ name }}</p>
+    <p>メールアドレス: {{ email }}</p>
+{% endblock %}

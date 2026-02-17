@@ -1,0 +1,22 @@
+body {
+  background-color: #f8f9fa; /* ページ全体の背景色を淡いグレーに設定 */
+}
+
+h1 {
+  text-align: center; /* 見出しを中央揃え */
+  color: #333; /* 見出しの文字色をダークグレーに設定 */
+}
+
+main {
+  max-width: 600px; /* メインコンテンツの最大幅を600pxに制限 */
+  margin: 20px auto; /* メインコンテンツを中央に配置 */
+  padding: 20px; /* 内側余白を設定 */
+  background-color: #ffffff; /* 背景色を白に設定 */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 影を追加して立体感を出す */
+}
+
+footer p {
+  text-align: center; /* フッター内のテキストを中央揃え */
+  color: #666; /* フッターの文字色をグレーに設定 */
+  font-size: 0.9em; /* フッターの文字サイズを少し小さく設定 */
+}

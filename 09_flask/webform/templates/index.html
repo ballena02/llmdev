@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% set title_content = "My WebSite" %}
+
+{% block title %}ユーザー登録{% endblock %}
+
+{% block content %}
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <input type="submit" value="Submit">
+    </form>
+{% endblock %}
