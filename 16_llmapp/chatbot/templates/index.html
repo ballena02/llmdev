@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="chat-box" id="chat-box">
+    {% for message in messages %}
+    <div class="{{ message.class }}">
+        {{ message.text|safe }}
+    </div>
+    {% endfor %}
+</div>
+
+<form method="POST" action="/" id="chat-form">
+    <div class="input-box">
+        <textarea name="user_message" id="user-input" placeholder="メッセージを入力..." required autofocus></textarea>
+        <button type="submit" id="submit-button">送信</button>
+    </div>
+</form>
+
+<form method="POST" action="/clear">
+    <button type="submit" class="clear-button">履歴を消去</button>
+</form>
+
+<script src="{{ url_for('static', filename='main.js') }}"></script>
+{% endblock %}
